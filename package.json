@@ -1,19 +1,16 @@
 {
-  "dependencies": {
-    "express": "^5.2.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^15.10.3"
-  },
-  "name": "new",
+  "name": "product-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
